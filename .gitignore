@@ -1,0 +1,56 @@
+# Miscellaneous
+*.class
+*.log
+*.pyc
+*.swp
+.DS_Store
+.atom/
+.buildlog/
+.history
+.svn/
+
+# IntelliJ related
+*.iml
+*.ipr
+*.iws
+.idea/
+
+# The .vscode folder contains launch configuration and tasks you configure in
+# VS Code which you may wish to be included in version control, so this line
+# is commented out by default.
+#.vscode/
+
+# Flutter/Dart/Pub related
+**/doc/api/
+.dart_tool/
+.flutter-plugins
+.flutter-plugins-dependencies
+.packages
+.pub-cache/
+.pub/
+/build/
+
+# Web related
+
+# Symbolication related
+app.*.symbols
+
+# Obfuscation related
+app.*.map.json
+
+# Exceptions to above rules.
+!/packages/flutter_tools/test/data/dart_dependencies_test/**/.packages
+
+# added by delay
+/ios/build/
+extra_staff/android/local.properties
+extra_staff/android/app/src/main/java/io/flutter/plugins/GeneratedPluginRegistrant.java
+extra_staff/ios/Flutter/flutter_export_environment.sh
+extra_staff/ios/Flutter/Generated.xcconfig
+extra_staff/ios/Runner/GeneratedPluginRegistrant.h
+extra_staff/ios/Runner/GeneratedPluginRegistrant.m
+ios/Debug.xcconfig
+ios/Release.xcconfig
+lib/views/question1_v.dart.orig
+/pubspec.lock
+/.vscode
